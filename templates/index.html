@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "../public/css/style.css">
+        <link rel = "icon" type = "image/png" href = "../public/img/star.png">
+        <title>APOD</title>
+    </head> 
+
+    <body>
+        <div class = "parent">
+            <div class = "grid-item grid-item-1">
+                <h1> {{.Title}} </h1>
+                <h3> {{.Author}} </h3>
+                <h3> {{.Date}} </h3>
+                <p> {{.Description}} </p>
+            </div>
+
+            <div class = "grid-item grid-item-2">
+                {{ if .IsAPicture}}
+                <img src = {{.URL}} alt = "apod.jpg" class = "apod" width = "500" height = "500" >
+                {{ else }}
+                <iframe width = "500" height = "500" src = {{.URL}} ></iframe>
+                {{end}} 
+            </div>
+        
+            <div class = "grid-item grid-item-3">
+                <form action = "/changeDate" method = "POST">
+                    <label class = "date-format">Date(YYYY-MM-DD)</label>
+                    <input type = "text" class="form_control" id = "date" name="date" placeholder="Enter a date">
+                    <button type = "Enter" class = "date-button">Enter</button>
+                </form>
+            </div>      
+        </div>
+    </body>
+</html>

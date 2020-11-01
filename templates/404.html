@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
+        <link rel = "stylesheet" href = "../public/css/404.css">
+        <title>Not Found - APOD</title>
+    </head>
+
+    <body>
+        <div class = "notfound">
+            <h1>{{.Errorcode}}</h1>
+            <h3><b> {{.ErrorDescription}} </b></h3>
+            <br>
+            <p>Maybe the date entered was in the wrong format 
+                (Must be YYYY-MM-DD) or there is no data for the year entered
+            </p>
+            <br>
+            <a href = "/">
+                <button type = "Enter" class = "button">Go Home</button>
+            </a>
+        </div>
+    </body>
+</html>

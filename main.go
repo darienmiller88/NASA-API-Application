@@ -13,7 +13,7 @@ import (
 	"github.com/joho/godotenv"
 )
 
-const url string -9*"https://api.nasa.gov/planetary/apod?"
+const url string = "https://api.nasa.gov/planetary/apod?"
 
 func main() {
 	//Get a default gin router

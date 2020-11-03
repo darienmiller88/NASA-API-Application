@@ -6,7 +6,11 @@
   ![](https://img.shields.io/badge/Golang-1.14-yellow)
   ![](https://img.shields.io/badge/HTML%2B%20CSS-48%25-red)
   ![](https://img.shields.io/badge/test-passing-green)
+  
+  </p>
    
+   <p align = "center">
+
   <img width="600" alt="currentdate" src="https://user-images.githubusercontent.com/32966645/97977040-91e77900-1d99-11eb-8b6d-3b26804de828.PNG">
    </p>
   

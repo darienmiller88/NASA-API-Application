@@ -9,7 +9,8 @@ Web Application to extract data from the NASA API and display them on dynamicall
 
    ## Installation
 
-```go build 
+```
+   go build 
    go mod vender //if you desire to have a folder including the dependencies, otherwise ignore
    go run main.go 
 ```

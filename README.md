@@ -9,10 +9,8 @@
   
   </p>
    
-   <p align = "center">
 
   <img width="600" alt="currentdate" src="https://user-images.githubusercontent.com/32966645/97977040-91e77900-1d99-11eb-8b6d-3b26804de828.PNG">
-   </p>
   
   ## Description
 

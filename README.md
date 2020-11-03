@@ -5,8 +5,8 @@
   ![](https://img.shields.io/badge/HTML%2B%20CSS-48%25-red)
   ![](https://img.shields.io/badge/test-passing-green)
 
-   <img width="600" alt="400error" src="https://user-images.githubusercontent.com/32966645/97976875-4cc34700-1d99-11eb-832b-c765d63f74de.PNG">  
-  
+  <img width="600" alt="currentdate" src="https://user-images.githubusercontent.com/32966645/97977040-91e77900-1d99-11eb-8b6d-3b26804de828.PNG">
+
 Web Application to extract data from the NASA API and display them on dynamically on an HTML file! Written using the "Gin" web framework. View it at https://nasa-apod-application.herokuapp.com/. Click [here](https://github.com/gin-gonic/gin) to read more on the web framework I used for this project. 
 
    ## Installation

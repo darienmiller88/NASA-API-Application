@@ -37,7 +37,7 @@ func main() {
 	app.POST("/changeDate", redirectToAPODPicture)
 	app.NoRoute(render404Page) //Handle 404 errors
 
-	fmt.Println("Server is up!")
+	fmt.Println("Server is up, plus this change!")
 	app.Run()
 }
 

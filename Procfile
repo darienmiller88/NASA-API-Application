@@ -1,1 +1,1 @@
-web: bin/deploy
+web: bin/main

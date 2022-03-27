@@ -127,6 +127,6 @@ func loadAPODInfo(date string, apiKey string) (map[string]interface{}, *http.Res
 
 func errHandle(err error) {
 	if err != nil {
-		fmt.Println(err)
+		fmt.Println("err:", err)
 	}
 }
